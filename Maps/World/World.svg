@@ -9,56 +9,56 @@
    height="">
 
 
-<style>
-  
-  .map_worldcountry_text {
-    font-family: roboto;
-    font-weight: 300;
-    fill: none;
-    font-size: 16px;
-  }
-
-
-  /* ELEMENT CLASSES */
-
-  .map_worldcountry_area {
-      fill: #CCCCCC;
-      stroke-width: 0.4;
-      stroke: #5f5f5f;
-  }
-
-  .map_worldcountry_area:hover {
-      fill: #ECECEC;
-  }
-
-
-  /* ELEMENT IDs */
-
-  #country_area_NA {
-      fill: #C0D03C;
-  }
-  
-  :has(#africancountries:hover) :is(#country_area_BJ, #country_area_BF, #country_area_BI, #country_area_CV, #country_area_CM, #country_area_CF, #country_area_TD, #country_area_KM, #country_area_CI, #country_area_DJ, #country_area_GQ, #country_area_ER, #country_area_GA, #country_area_GM, #country_area_GH, #country_area_GN, #country_area_GW, #country_area_LR, #country_area_MG, #country_area_MR, #country_area_NE, #country_area_RW, #country_area_ST, #country_area_SL, #country_area_TG, #country_area_TN, #country_area_EH, #country_area_UG) {
-      fill: #F48C2695;
-  }
-  
-  :has(#othercountries:hover) :is(#country_area_AR, #country_area_AM, #country_area_AU, #country_area_AT, #country_area_AZ, #country_area_BY, #country_area_BE, #country_area_BG, #country_area_CA, #country_area_KH, #country_area_CL, #country_area_HR, #country_area_CZ, #country_area_DK, #country_area_EC, #country_area_EE, #country_area_FI, #country_area_FR, #country_area_DE, #country_area_GR, #country_area_HU, #country_area_IS, #country_area_IE, #country_area_IL, #country_area_IT, #country_area_JP, #country_area_KZ, #country_area_KG, #country_area_LV, #country_area_LI, #country_area_LT, #country_area_LU, #country_area_MX, #country_area_MD, #country_area_NL, #country_area_NZ, #country_area_NI, #country_area_NO, #country_area_PY, #country_area_PE, #country_area_PL, #country_area_PT, #country_area_RO, #country_area_SK, #country_area_KR, #country_area_ES, #country_area_SE, #country_area_CH, #country_area_TJ, #country_area_TH, #country_area_TR, #country_area_TM, #country_area_UA, #country_area_AE, #country_area_GB, #country_area_US, #country_area_UY, #country_area_UZ, #country_area_VA, #country_area_VE, #country_area_VN) {
-      fill: #F48C2695;
-  }
-  
-  :has(#customcountries1:hover) :is(#country_area_DZ, #country_area_BJ, #country_area_BF, #country_area_BI, #country_area_CV, #country_area_CM, #country_area_CF, #country_area_TD, #country_area_CN, #country_area_KM, #country_area_CG, #country_area_CI, #country_area_CD, #country_area_EG, #country_area_GQ, #country_area_ER, #country_area_ET, #country_area_FR, #country_area_GA, #country_area_GM, #country_area_DE, #country_area_GH, #country_area_GN, #country_area_IN, #country_area_LR, #country_area_MG, #country_area_MR, #country_area_NE, #country_area_NG, #country_area_PL, #country_area_RW, #country_area_EH, #country_area_ST, #country_area_SN, #country_area_SL, #country_area_CH, #country_area_TG, #country_area_TN, #country_area_TR, #country_area_VN) {
-      fill: #F48C2695;
-  }
-  
-  :has(#customcountries2:hover) :is(#country_area_AO, #country_area_BW, #country_area_BR, #country_area_CU, #country_area_SZ, #country_area_ID, #country_area_JM, #country_area_KE, #country_area_LS, #country_area_MW, #country_area_MY, #country_area_MU, #country_area_MZ, #country_area_RU, #country_area_SC, #country_area_SG, #country_area_ZA, #country_area_TZ, #country_area_ZM, #country_area_ZW) {
-      fill: #F48C2695;
-  }
-  
-  [id^="country_area_"]:hover + [id^="country_text_"] {
-    fill: #5f5f5f;
-  }
-  
-</style>
+   <style>
+     
+     .map_worldcountry_text {
+       font-family: roboto;
+       font-weight: 300;
+       fill: none;
+       font-size: 16px;
+     }
+   
+   
+     /* ELEMENT CLASSES */
+   
+     .map_worldcountry_area {
+         fill: #CCCCCC;
+         stroke-width: 0.4;
+         stroke: #5f5f5f;
+     }
+   
+     .map_worldcountry_area:hover {
+         fill: #ECECEC;
+     }
+   
+   
+     /* ELEMENT IDs */
+   
+     #country_area_NA {
+         fill: #C0D03C;
+     }
+     
+     :has(#africancountries:hover) :is(#country_area_BJ, #country_area_BF, #country_area_BI, #country_area_CV, #country_area_CM, #country_area_CF, #country_area_TD, #country_area_KM, #country_area_CI, #country_area_DJ, #country_area_GQ, #country_area_ER, #country_area_GA, #country_area_GM, #country_area_GH, #country_area_GN, #country_area_GW, #country_area_LR, #country_area_MG, #country_area_MR, #country_area_NE, #country_area_RW, #country_area_ST, #country_area_SL, #country_area_TG, #country_area_TN, #country_area_EH, #country_area_UG) {
+         fill: #F48C2695;
+     }
+     
+     :has(#othercountries:hover) :is(#country_area_AR, #country_area_AM, #country_area_AU, #country_area_AT, #country_area_AZ, #country_area_BY, #country_area_BE, #country_area_BG, #country_area_CA, #country_area_KH, #country_area_CL, #country_area_HR, #country_area_CZ, #country_area_DK, #country_area_EC, #country_area_EE, #country_area_FI, #country_area_FR, #country_area_DE, #country_area_GR, #country_area_HU, #country_area_IS, #country_area_IE, #country_area_IL, #country_area_IT, #country_area_JP, #country_area_KZ, #country_area_KG, #country_area_LV, #country_area_LI, #country_area_LT, #country_area_LU, #country_area_MX, #country_area_MD, #country_area_NL, #country_area_NZ, #country_area_NI, #country_area_NO, #country_area_PY, #country_area_PE, #country_area_PL, #country_area_PT, #country_area_RO, #country_area_SK, #country_area_KR, #country_area_ES, #country_area_SE, #country_area_CH, #country_area_TJ, #country_area_TH, #country_area_TR, #country_area_TM, #country_area_UA, #country_area_AE, #country_area_GB, #country_area_US, #country_area_UY, #country_area_UZ, #country_area_VA, #country_area_VE, #country_area_VN) {
+         fill: #F48C2695;
+     }
+     
+     :has(#customcountries1:hover) :is(#country_area_DZ, #country_area_BJ, #country_area_BF, #country_area_BI, #country_area_CV, #country_area_CM, #country_area_CF, #country_area_TD, #country_area_CN, #country_area_KM, #country_area_CG, #country_area_CI, #country_area_CD, #country_area_EG, #country_area_GQ, #country_area_ER, #country_area_ET, #country_area_FR, #country_area_GA, #country_area_GM, #country_area_DE, #country_area_GH, #country_area_GN, #country_area_IN, #country_area_LR, #country_area_MG, #country_area_MR, #country_area_NE, #country_area_NG, #country_area_PL, #country_area_RW, #country_area_EH, #country_area_ST, #country_area_SN, #country_area_SL, #country_area_CH, #country_area_TG, #country_area_TN, #country_area_TR, #country_area_VN) {
+         fill: #F48C2695;
+     }
+     
+     :has(#customcountries2:hover) :is(#country_area_AO, #country_area_BW, #country_area_BR, #country_area_CU, #country_area_SZ, #country_area_ID, #country_area_JM, #country_area_KE, #country_area_LS, #country_area_MW, #country_area_MY, #country_area_MU, #country_area_MZ, #country_area_RU, #country_area_SC, #country_area_SG, #country_area_ZA, #country_area_TZ, #country_area_ZM, #country_area_ZW) {
+         fill: #F48C2695;
+     }
+     
+     [id^="country_area_"]:hover + [id^="country_text_"] {
+       fill: #5f5f5f;
+     }
+     
+   </style>
 
 
 
